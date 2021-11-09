@@ -1,0 +1,83 @@
+[debug] [2021-09-01T14:43:47.858Z] ----------------------------------------------------------------------
+[debug] [2021-09-01T14:43:47.860Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2021-09-01T14:43:47.861Z] CLI Version:   3.17.7
+[debug] [2021-09-01T14:43:47.861Z] Platform:      darwin
+[debug] [2021-09-01T14:43:47.861Z] Node Version:  v8.10.0
+[debug] [2021-09-01T14:43:47.862Z] Time:          Wed Sep 01 2021 16:43:47 GMT+0200 (SAST)
+[debug] [2021-09-01T14:43:47.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-01T14:43:47.876Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2021-09-01T14:43:47.877Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mphomakgoba/Desktop/hospital-website
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-01T14:43:51.377Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-01T14:43:51.378Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1//037vnSCHBEQp-CgYIARAAGAMSNwF-L9IrvLx8nN6IK_Iu-i9VJxSnrvl2Z3LqG_nvNEJpbMfYPdzDdWMbx_Usrz_ZFpvnSvCd418',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Sep 01 2021 16:43:51 GMT+0200 (SAST)
+[debug] [2021-09-01T14:43:52.138Z] <<< HTTP RESPONSE 200
+[debug] [2021-09-01T14:43:52.155Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Wed Sep 01 2021 16:43:52 GMT+0200 (SAST)
+[debug] [2021-09-01T14:45:09.295Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
+[debug] [2021-09-01T14:54:59.210Z] ----------------------------------------------------------------------
+[debug] [2021-09-01T14:54:59.212Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2021-09-01T14:54:59.212Z] CLI Version:   3.17.7
+[debug] [2021-09-01T14:54:59.212Z] Platform:      darwin
+[debug] [2021-09-01T14:54:59.212Z] Node Version:  v8.10.0
+[debug] [2021-09-01T14:54:59.214Z] Time:          Wed Sep 01 2021 16:54:59 GMT+0200 (SAST)
+[debug] [2021-09-01T14:54:59.214Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-01T14:54:59.227Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2021-09-01T14:54:59.228Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mphomakgoba/Desktop/hospital-website
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-01T14:55:02.427Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Wed Sep 01 2021 16:55:02 GMT+0200 (SAST)
+[debug] [2021-09-01T14:56:18.176Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
